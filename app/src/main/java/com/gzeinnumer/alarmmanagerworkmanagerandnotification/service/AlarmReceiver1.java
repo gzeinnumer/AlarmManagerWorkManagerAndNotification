@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class AlarmReceiver extends BroadcastReceiver {
+public class AlarmReceiver1 extends BroadcastReceiver {
 
     private static final String TAG = "AlarmReceiver_";
 
@@ -24,6 +24,6 @@ public class AlarmReceiver extends BroadcastReceiver {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault());
         String currentDateandTime = sdf.format(new Date());
 
-        notificationHelper.createNotification("Notification Oreo", currentDateandTime);
+        notificationHelper.createNotification("Notification Oreo 1", currentDateandTime);
     }
 }

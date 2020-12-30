@@ -1,5 +1,5 @@
 # AlarmManagerWorkManagerAndNotification
- 
+One receiver for one natification trigger
 
 - Manifest
 ```xml
